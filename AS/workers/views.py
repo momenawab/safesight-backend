@@ -1,0 +1,329 @@
+"""
+Views for Workers app.
+"""
+import logging
+from rest_framework import generics, status
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated, AllowAny
+from django.shortcuts import get_object_or_404
+from django.views.decorators.csrf import csrf_exempt
+
+from .models import Worker, WorkerShift
+from .serializers import (
+    WorkerSerializer,
+    WorkerCreateSerializer,
+    WorkerUpdateSerializer,
+    WorkerDetailSerializer,
+    WorkerShiftSerializer
+)
+
+logger = logging.getLogger(__name__)
+
+
+class WorkerListCreateView(generics.ListCreateAPIView):
+    """
+    API endpoint for listing and creating workers.
+
+    GET /api/workers/ - List all workers
+    POST /api/workers/ - Create a new worker
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        queryset = Worker.objects.all()
+
+        # Filter by department
+        department = self.request.query_params.get('department')
+        if department:
+            queryset = queryset.filter(department=department)
+
+        # Filter by active status
+        is_active = self.request.query_params.get('is_active')
+        if is_active is not None:
+            queryset = queryset.filter(is_active=is_active.lower() == 'true')
+
+        # Search by name or worker_id
+        search = self.request.query_params.get('search')
+        if search:
+            queryset = queryset.filter(
+                name__icontains=search
+            ) | queryset.filter(
+                worker_id__icontains=search
+            )
+
+        return queryset.order_by('name')
+
+    def get_serializer_class(self):
+        if self.request.method == 'POST':
+            return WorkerCreateSerializer
+        return WorkerSerializer
+
+    def perform_create(self, serializer):
+        # Set the created_by field to the current user
+        serializer.save(created_by=self.request.user)
+
+
+class WorkerDetailView(generics.RetrieveUpdateDestroyAPIView):
+    """
+    API endpoint for worker details.
+
+    GET /api/workers/{id}/ - Get worker details
+    PUT /api/workers/{id}/ - Update worker
+    PATCH /api/workers/{id}/ - Partially update worker
+    DELETE /api/workers/{id}/ - Delete worker
+    """
+    queryset = Worker.objects.all()
+    permission_classes = [IsAuthenticated]
+    lookup_field = 'id'
+
+    def get_serializer_class(self):
+        if self.request.method == 'GET':
+            return WorkerDetailSerializer
+        elif self.request.method in ['PUT', 'PATCH']:
+            return WorkerUpdateSerializer
+        return WorkerSerializer
+
+
+class WorkerByWorkerIdView(generics.RetrieveAPIView):
+    """
+    API endpoint for getting worker by worker_id.
+
+    GET /api/workers/id/{worker_id}/ - Get worker by worker_id
+    """
+    queryset = Worker.objects.all()
+    permission_classes = [IsAuthenticated]
+    serializer_class = WorkerDetailSerializer
+    lookup_field = 'worker_id'
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def worker_stats(request):
+    """
+    Get worker statistics.
+
+    GET /api/workers/stats/ - Get overall worker statistics
+    """
+    from django.db.models import Count, Q
+
+    total_workers = Worker.objects.count()
+    active_workers = Worker.objects.filter(is_active=True).count()
+
+    # Workers by department
+    dept_stats = Worker.objects.values('department').annotate(
+        count=Count('id')
+    ).order_by('-count')
+
+    # Workers with violations
+    from detection.models import ViolationRecord
+    workers_with_violations = ViolationRecord.objects.values('worker_id').distinct().count()
+
+    return Response({
+        'total_workers': total_workers,
+        'active_workers': active_workers,
+        'inactive_workers': total_workers - active_workers,
+        'workers_with_violations': workers_with_violations,
+        'by_department': list(dept_stats)
+    })
+
+
+@api_view(['GET', 'POST'])
+@permission_classes([IsAuthenticated])
+def worker_shifts(request, worker_id):
+    """
+    Get or create shifts for a worker.
+
+    GET /api/workers/{worker_id}/shifts/ - Get worker's shifts
+    POST /api/workers/{worker_id}/shifts/ - Create a new shift
+    """
+    worker = get_object_or_404(Worker, worker_id=worker_id)
+
+    if request.method == 'GET':
+        shifts = worker.shifts.all()
+        serializer = WorkerShiftSerializer(shifts, many=True)
+        return Response(serializer.data)
+
+    elif request.method == 'POST':
+        serializer = WorkerShiftSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save(worker=worker)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def worker_violations(request, worker_id):
+    """
+    Get violations for a specific worker.
+
+    GET /api/workers/{worker_id}/violations/ - Get worker's violation history
+    """
+    worker = get_object_or_404(Worker, worker_id=worker_id)
+
+    from detection.models import ViolationRecord
+    violations = ViolationRecord.objects.filter(
+        worker_id=worker_id
+    ).order_by('-timestamp')
+
+    # Apply status filter
+    violation_status = request.query_params.get('status')
+    if violation_status:
+        violations = violations.filter(status=violation_status)
+
+    # Paginate
+    page = int(request.query_params.get('page', 1))
+    page_size = int(request.query_params.get('page_size', 20))
+    start = (page - 1) * page_size
+    end = start + page_size
+
+    violations_page = violations[start:end]
+
+    from detection.serializers import ViolationRecordSerializer
+    return Response({
+        'worker_id': worker_id,
+        'worker_name': worker.name,
+        'total_violations': violations.count(),
+        'page': page,
+        'page_size': page_size,
+        'violations': ViolationRecordSerializer(
+            violations_page,
+            many=True,
+            context={'request': request}
+        ).data
+    })
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])  # Changed to AllowAny for testing
+def add_worker_with_photo(request):
+    """
+    Add a new worker with face photo for recognition.
+
+    POST /api/workers/add-with-photo/
+
+    Body (multipart/form-data):
+        worker_id: string (required)
+        name: string (required)
+        photo: file (required - clear face photo)
+        email: string (optional)
+        phone: string (optional)
+        department: string (optional)
+        position: string (optional)
+        shift: string (optional)
+        required_ppe: array (optional)
+    """
+    from detection.services.face_recognition import FaceRecognitionService
+    import numpy as np
+
+    try:
+        # Extract data
+        worker_id = request.data.get('worker_id')
+        name = request.data.get('name')
+        photo = request.data.get('photo')
+
+        if not all([worker_id, name, photo]):
+            return Response({
+                'error': 'worker_id, name, and photo are required'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        # Check if worker_id already exists
+        if Worker.objects.filter(worker_id=worker_id).exists():
+            return Response({
+                'error': 'A worker with this ID already exists'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        # Extract face encoding from photo
+        face_encoding = FaceRecognitionService.extract_face_encoding(photo.read())
+
+        if face_encoding is None:
+            return Response({
+                'error': 'No face detected in the uploaded photo. Please upload a clear photo showing the face.'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        # Create worker with face encoding
+        worker = Worker.objects.create(
+            worker_id=worker_id,
+            name=name,
+            email=request.data.get('email'),
+            phone=request.data.get('phone'),
+            department=request.data.get('department'),
+            position=request.data.get('position'),
+            shift=request.data.get('shift', 'day'),
+            photo=photo,
+            required_ppe=request.data.get('required_ppe', []),
+            face_encoding=face_encoding.tolist(),  # Convert numpy to list
+            face_photo_valid=True,
+            created_by=request.user if request.user.is_authenticated else None
+        )
+
+        # Add to face recognition model
+        success = FaceRecognitionService.add_worker_to_model(worker_id, face_encoding)
+
+        if not success:
+            logger.warning(f"Worker created but not added to face model: {worker_id}")
+
+        return Response({
+            'message': 'Worker added successfully',
+            'worker_id': worker_id,
+            'name': worker.name,
+            'face_encoding_stored': True
+        }, status=status.HTTP_201_CREATED)
+
+    except Exception as e:
+        logger.error(f"Error adding worker: {e}")
+        return Response({
+            'error': str(e)
+        }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])  # Changed to AllowAny for testing
+def retrain_face_model(request):
+    """
+    Retrain face recognition model with all workers in database.
+
+    POST /api/workers/retrain-face-model/
+    """
+    from detection.services.face_recognition import FaceRecognitionService
+    import numpy as np
+
+    try:
+        # Load all workers with valid face encodings
+        workers = Worker.objects.filter(face_photo_valid=True)
+
+        if workers.count() == 0:
+            return Response({
+                'error': 'No workers with valid photos found'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        workers_data = []
+        for worker in workers:
+            if worker.face_encoding:
+                workers_data.append({
+                    'worker_id': worker.worker_id,
+                    'face_encoding': np.array(worker.face_encoding)
+                })
+
+        if not workers_data:
+            return Response({
+                'error': 'No workers with face encodings found'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+        # Retrain model
+        success = FaceRecognitionService.retrain_from_workers(workers_data)
+
+        if success:
+            return Response({
+                'message': f'Model retrained with {len(workers_data)} workers'
+            })
+        else:
+            return Response({
+                'error': 'Failed to retrain model'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    except Exception as e:
+        logger.error(f"Error retraining model: {e}")
+        return Response({
+            'error': str(e)
+        }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

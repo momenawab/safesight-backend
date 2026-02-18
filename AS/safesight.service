@@ -1,0 +1,15 @@
+[Unit]
+Description=SafeSight PPE Detection Backend (Daphne ASGI)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/safesight
+EnvironmentFile=/opt/safesight/.env.production
+ExecStart=/opt/safesight/venv/bin/daphne -b 127.0.0.1 -p 8000 config.asgi:application
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

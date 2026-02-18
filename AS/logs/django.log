@@ -1,0 +1,1104 @@
+INFO 2026-02-10 14:20:51,858 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:20:51,888 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:21:26,446 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:21:26,475 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:21:56,234 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:21:57,790 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:21:57,817 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:22:09,098 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:22:10,286 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:22:10,304 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:22:49,737 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:22:49,755 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:25:28,833 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:25:30,171 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:25:30,188 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:25:45,787 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:25:47,110 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:25:47,136 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:26:15,659 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:26:15,677 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:26:30,490 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:26:31,620 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:26:31,638 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:27:37,303 runserver [32mHTTP GET /admin/ 302 [0.02, 127.0.0.1:57101][0m
+INFO 2026-02-10 14:27:37,343 runserver [mHTTP GET /admin/login/?next=/admin/ 200 [0.03, 127.0.0.1:57101][0m
+INFO 2026-02-10 14:27:37,637 runserver [mHTTP GET /static/admin/css/base.css 200 [0.01, 127.0.0.1:57101][0m
+INFO 2026-02-10 14:27:37,637 runserver [mHTTP GET /static/admin/css/dark_mode.css 200 [0.01, 127.0.0.1:57104][0m
+INFO 2026-02-10 14:27:37,638 runserver [mHTTP GET /static/admin/css/login.css 200 [0.01, 127.0.0.1:57107][0m
+INFO 2026-02-10 14:27:37,638 runserver [mHTTP GET /static/admin/js/theme.js 200 [0.01, 127.0.0.1:57111][0m
+INFO 2026-02-10 14:27:37,638 runserver [mHTTP GET /static/admin/css/responsive.css 200 [0.01, 127.0.0.1:57110][0m
+INFO 2026-02-10 14:27:37,638 runserver [mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.01, 127.0.0.1:57106][0m
+INFO 2026-02-10 14:27:37,693 runserver [mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.00, 127.0.0.1:57110][0m
+WARNING 2026-02-10 14:27:38,215 log Not Found: /favicon.ico
+WARNING 2026-02-10 14:27:38,215 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:57110][0m
+INFO 2026-02-10 14:27:45,232 runserver [32mHTTP POST /admin/login/?next=/admin/ 302 [0.13, 127.0.0.1:57121][0m
+INFO 2026-02-10 14:27:45,244 runserver [mHTTP GET /admin/ 200 [0.01, 127.0.0.1:57121][0m
+INFO 2026-02-10 14:27:45,264 runserver [mHTTP GET /static/admin/css/dashboard.css 200 [0.00, 127.0.0.1:57123][0m
+INFO 2026-02-10 14:27:45,274 runserver [mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.00, 127.0.0.1:57123][0m
+INFO 2026-02-10 14:27:45,274 runserver [mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.00, 127.0.0.1:57125][0m
+ERROR 2026-02-10 14:29:14,150 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 14:29:14,152 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 14:29:14,152 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.01, 127.0.0.1:57238][0m
+ERROR 2026-02-10 14:29:28,921 views Error in upload_and_detect: 'DetectionResult' object has no attribute 'non_compliant'
+ERROR 2026-02-10 14:29:28,922 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 14:29:28,922 runserver [35;1mHTTP POST /api/detection/upload/ 500 [1.89, 127.0.0.1:57254][0m
+WARNING 2026-02-10 14:29:46,187 log Method Not Allowed: /api/detection/upload/
+WARNING 2026-02-10 14:29:46,187 runserver [31;1mHTTP GET /api/detection/upload/ 405 [0.01, 127.0.0.1:57277][0m
+ERROR 2026-02-10 14:30:16,904 views Error in upload_and_detect: 'DetectionResult' object has no attribute 'non_compliant'
+ERROR 2026-02-10 14:30:16,906 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 14:30:16,906 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.06, 127.0.0.1:57318][0m
+INFO 2026-02-10 14:30:35,662 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:30:35,666 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:30:35,666 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:30:37,093 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:37,093 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:37,093 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:38,723 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:38,723 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:38,723 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:38,758 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:30:38,758 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:30:38,758 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:30:45,150 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-10 14:30:45,151 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-10 14:30:45,162 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-10 14:30:46,071 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:46,071 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:46,071 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:30:47,198 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:47,198 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:47,198 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:30:47,215 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:30:47,215 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:30:47,215 ppe_model PPE detection model loaded successfully
+ERROR 2026-02-10 14:31:05,617 views Error in upload_and_detect: 'request'
+ERROR 2026-02-10 14:31:05,619 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 14:31:05,619 runserver HTTP POST /api/detection/upload/ 500 [0.12, 127.0.0.1:57399]
+INFO 2026-02-10 14:31:17,094 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:31:17,098 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:31:17,204 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/views.py changed, reloading.
+INFO 2026-02-10 14:31:18,316 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:31:18,316 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:31:18,316 autoreload Watching for file changes with StatReloader
+INFO 2026-02-10 14:31:19,769 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:31:19,769 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:31:19,769 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-10 14:31:19,792 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:31:19,792 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:31:19,792 ppe_model PPE detection model loaded successfully
+INFO 2026-02-10 14:31:23,157 runserver [mHTTP POST /api/detection/upload/ 200 [0.17, 127.0.0.1:57429][0m
+INFO 2026-02-10 14:32:25,950 runserver [mHTTP POST /api/detection/upload/ 200 [0.06, 127.0.0.1:57498][0m
+INFO 2026-02-10 15:21:13,482 runserver [mHTTP GET /api/detection/health/ 200 [0.06, 127.0.0.1:61417][0m
+INFO 2026-02-10 15:21:38,812 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:61439][0m
+ERROR 2026-02-10 15:22:07,208 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 15:22:07,213 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 15:22:07,214 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.01, 127.0.0.1:61464][0m
+ERROR 2026-02-10 15:22:24,267 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 15:22:24,270 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 15:22:24,270 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.01, 127.0.0.1:61478][0m
+ERROR 2026-02-10 15:22:38,400 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 15:22:38,406 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 15:22:38,407 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.04, 127.0.0.1:61495][0m
+INFO 2026-02-10 15:23:01,754 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:61522][0m
+ERROR 2026-02-10 15:23:11,665 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 15:23:11,667 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 15:23:11,668 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.01, 127.0.0.1:61537][0m
+INFO 2026-02-10 15:24:55,293 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:61648][0m
+ERROR 2026-02-10 15:24:58,417 views Error in upload_and_detect: {'image': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+ERROR 2026-02-10 15:24:58,419 log Internal Server Error: /api/detection/upload/
+ERROR 2026-02-10 15:24:58,420 runserver [35;1mHTTP POST /api/detection/upload/ 500 [0.01, 127.0.0.1:61657][0m
+INFO 2026-02-10 15:26:56,400 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:61814][0m
+INFO 2026-02-10 15:27:00,622 runserver [mHTTP POST /api/detection/upload/ 200 [0.20, 127.0.0.1:61819][0m
+INFO 2026-02-10 15:27:05,292 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:61834][0m
+INFO 2026-02-10 15:27:08,242 runserver [mHTTP POST /api/detection/upload/ 200 [0.05, 127.0.0.1:61834][0m
+INFO 2026-02-10 15:27:11,767 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:61849][0m
+INFO 2026-02-10 15:27:14,627 runserver [mHTTP POST /api/detection/upload/ 200 [0.05, 127.0.0.1:61849][0m
+INFO 2026-02-10 15:27:25,901 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:61867][0m
+INFO 2026-02-10 15:27:28,865 runserver [mHTTP POST /api/detection/upload/ 200 [0.07, 127.0.0.1:61867][0m
+INFO 2026-02-17 08:28:37,955 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 08:28:43,303 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 08:28:43,322 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 08:30:57,434 runserver [mHTTP GET /api/detection/health/ 200 [0.08, 127.0.0.1:51680][0m
+INFO 2026-02-17 08:31:03,803 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51686][0m
+INFO 2026-02-17 08:31:11,268 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51694][0m
+INFO 2026-02-17 08:31:11,723 runserver [mHTTP POST /api/detection/upload/ 200 [0.44, 127.0.0.1:51694][0m
+INFO 2026-02-17 08:31:17,901 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51700][0m
+INFO 2026-02-17 08:31:17,987 runserver [mHTTP POST /api/detection/upload/ 200 [0.07, 127.0.0.1:51700][0m
+INFO 2026-02-17 08:34:58,763 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51922][0m
+INFO 2026-02-17 08:35:14,855 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51935][0m
+INFO 2026-02-17 08:35:15,041 runserver [mHTTP POST /api/detection/upload/ 200 [0.16, 127.0.0.1:51935][0m
+INFO 2026-02-17 08:35:17,343 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51939][0m
+INFO 2026-02-17 08:35:20,471 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51942][0m
+INFO 2026-02-17 08:35:20,526 runserver [mHTTP POST /api/detection/upload/ 200 [0.04, 127.0.0.1:51942][0m
+INFO 2026-02-17 08:35:25,238 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51946][0m
+INFO 2026-02-17 08:35:29,335 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51956][0m
+INFO 2026-02-17 08:35:29,389 runserver [mHTTP POST /api/detection/upload/ 200 [0.05, 127.0.0.1:51956][0m
+INFO 2026-02-17 08:35:39,735 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51963][0m
+INFO 2026-02-17 08:35:39,796 runserver [mHTTP POST /api/detection/upload/ 200 [0.05, 127.0.0.1:51963][0m
+INFO 2026-02-17 09:07:01,256 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:53027][0m
+INFO 2026-02-17 09:07:05,075 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53032][0m
+INFO 2026-02-17 09:07:05,242 runserver [mHTTP POST /api/detection/upload/ 200 [0.15, 127.0.0.1:53032][0m
+INFO 2026-02-17 09:07:16,185 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:53040][0m
+INFO 2026-02-17 09:07:16,245 runserver [mHTTP POST /api/detection/upload/ 200 [0.05, 127.0.0.1:53040][0m
+INFO 2026-02-17 09:07:28,017 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53047][0m
+INFO 2026-02-17 09:07:28,064 runserver [mHTTP POST /api/detection/upload/ 200 [0.04, 127.0.0.1:53047][0m
+INFO 2026-02-17 09:08:02,292 runserver [mHTTP GET /api/detection/health/ 200 [0.10, 127.0.0.1:53087][0m
+INFO 2026-02-17 09:09:33,749 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:53209][0m
+INFO 2026-02-17 09:09:33,929 runserver [mHTTP POST /api/detection/upload/ 200 [0.16, 127.0.0.1:53209][0m
+INFO 2026-02-17 09:09:43,649 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53217][0m
+INFO 2026-02-17 09:09:48,478 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53220][0m
+INFO 2026-02-17 09:09:48,545 runserver [mHTTP POST /api/detection/upload/ 200 [0.06, 127.0.0.1:53220][0m
+INFO 2026-02-17 09:39:23,712 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/models.py changed, reloading.
+INFO 2026-02-17 09:39:25,004 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:39:26,517 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:39:26,540 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:39:34,893 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 09:39:35,850 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:39:36,985 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:39:37,002 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:40:07,072 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 09:40:07,984 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:40:09,121 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:40:09,140 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:40:21,691 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/urls.py changed, reloading.
+INFO 2026-02-17 09:40:22,598 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:40:23,672 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:40:23,691 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:40:31,024 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/serializers.py changed, reloading.
+INFO 2026-02-17 09:40:31,929 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:40:32,896 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:40:32,915 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:40:38,204 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/serializers.py changed, reloading.
+INFO 2026-02-17 09:40:39,137 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:40:40,003 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:40:40,018 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:40:50,429 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/ppe_model.py changed, reloading.
+INFO 2026-02-17 09:40:51,413 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:40:52,611 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:40:52,630 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:41:01,049 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/ppe_model.py changed, reloading.
+INFO 2026-02-17 09:41:01,967 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:41:03,127 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:41:03,144 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:41:11,518 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/ppe_model.py changed, reloading.
+INFO 2026-02-17 09:41:12,353 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:41:13,339 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:41:13,356 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:41:47,428 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/ppe_model.py changed, reloading.
+INFO 2026-02-17 09:41:48,290 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:41:49,505 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:41:49,522 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:41:56,905 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/__init__.py changed, reloading.
+INFO 2026-02-17 09:41:57,722 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 09:41:58,568 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:41:58,581 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:45:04,688 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:45:04,705 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:45:22,834 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:45:22,859 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:48:10,765 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:48:10,789 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:50:56,276 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:50:56,302 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:53:24,756 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:53:24,787 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 09:53:58,180 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 09:53:58,209 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:20:10,653 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:20:10,670 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:20:49,803 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:21:38,585 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:21:38,607 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:21:39,777 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:22:13,066 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:22:13,088 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:22:14,290 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:23:26,548 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:23:27,909 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:23:27,935 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:23:29,108 face_recognition Base face recognition model loaded (celebrity-trained)
+WARNING 2026-02-17 10:23:32,733 log Not Found: /
+WARNING 2026-02-17 10:23:32,733 runserver [33mHTTP GET / 404 [0.01, 127.0.0.1:56653][0m
+WARNING 2026-02-17 10:23:32,924 log Not Found: /favicon.ico
+WARNING 2026-02-17 10:23:32,925 runserver [33mHTTP GET /favicon.ico 404 [0.00, 127.0.0.1:56653][0m
+INFO 2026-02-17 10:24:55,593 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:24:56,814 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:24:56,832 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:24:57,864 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:25:48,767 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:25:49,961 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:25:49,978 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:25:51,020 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:26:13,575 runserver HTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:56800]
+WARNING 2026-02-17 10:28:27,123 log Bad Request: /api/auth/register/
+WARNING 2026-02-17 10:28:27,124 runserver HTTP POST /api/auth/register/ 400 [0.00, 127.0.0.1:56897]
+INFO 2026-02-17 10:29:06,452 runserver HTTP POST /api/auth/register/ 201 [0.07, 127.0.0.1:56939]
+INFO 2026-02-17 10:29:25,517 runserver HTTP POST /api/auth/login/ 200 [0.05, 127.0.0.1:56962]
+INFO 2026-02-17 10:29:46,325 runserver HTTP POST /api/auth/login/ 200 [0.06, 127.0.0.1:56981]
+WARNING 2026-02-17 10:29:56,237 log Forbidden: /api/workers/add-with-photo/
+WARNING 2026-02-17 10:29:56,237 runserver HTTP POST /api/workers/add-with-photo/ 403 [0.01, 127.0.0.1:56987]
+ERROR 2026-02-17 10:31:08,827 face_recognition Error extracting face encoding: cannot identify image file <_io.BytesIO object at 0x141e4fe70>
+INFO 2026-02-17 10:31:08,947 runserver HTTP POST /api/detection/upload/ 200 [6.62, 127.0.0.1:57204]
+INFO 2026-02-17 10:31:27,504 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:31:27,509 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:31:29,639 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:31:29,682 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:31:31,270 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:31:31,270 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:31:31,291 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:31:31,291 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:31:32,844 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:31:32,844 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:31:39,332 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:31:39,342 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:31:40,443 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:31:40,534 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:31:41,630 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:31:41,630 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:31:41,647 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:31:41,647 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:31:42,784 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:31:42,784 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:32:23,924 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:32:25,219 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:32:25,234 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:32:26,441 face_recognition Base face recognition model loaded (celebrity-trained)
+WARNING 2026-02-17 10:32:36,451 log Forbidden: /api/auth/login/
+WARNING 2026-02-17 10:32:36,452 runserver HTTP POST /api/auth/login/ 403 [0.01, 127.0.0.1:57672]
+INFO 2026-02-17 10:32:59,599 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:33:00,751 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:33:02,053 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:33:02,068 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:33:03,218 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:33:05,384 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:33:06,040 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:33:06,927 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:33:06,938 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:33:07,853 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:33:10,007 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:33:10,794 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:33:11,701 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:33:11,712 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:33:12,574 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:34:56,096 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:34:57,659 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:34:57,686 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:34:58,913 face_recognition Base face recognition model loaded (celebrity-trained)
+ERROR 2026-02-17 10:35:50,956 log Internal Server Error: /api/workers/add-with-photo/
+ERROR 2026-02-17 10:35:50,957 runserver HTTP POST /api/workers/add-with-photo/ 500 [0.60, 127.0.0.1:58618]
+INFO 2026-02-17 10:35:59,366 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/workers/views.py changed, reloading.
+INFO 2026-02-17 10:36:00,804 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:36:02,284 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:36:02,306 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:36:03,603 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:36:54,280 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:36:55,893 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:36:55,926 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:36:57,162 face_recognition Base face recognition model loaded (celebrity-trained)
+ERROR 2026-02-17 10:37:14,610 face_recognition Error adding worker to model: 'KNeighborsClassifier' object has no attribute '_y_'
+INFO 2026-02-17 10:37:14,612 runserver HTTP POST /api/workers/add-with-photo/ 201 [0.64, 127.0.0.1:59027]
+INFO 2026-02-17 10:37:27,153 runserver HTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:59095]
+ERROR 2026-02-17 10:37:36,165 face_recognition Error extracting face encoding: cannot identify image file <_io.BytesIO object at 0x130d20b30>
+INFO 2026-02-17 10:37:36,262 runserver HTTP POST /api/detection/upload/ 200 [0.97, 127.0.0.1:59139]
+INFO 2026-02-17 10:38:07,043 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:38:08,602 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:38:09,993 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:38:10,008 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:38:11,376 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:38:25,007 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:38:26,263 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:38:27,681 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:38:27,700 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:38:29,195 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:39:53,703 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:39:55,206 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:39:55,224 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:39:56,521 face_recognition Base face recognition model loaded (celebrity-trained)
+WARNING 2026-02-17 10:40:10,687 log Bad Request: /api/workers/add-with-photo/
+WARNING 2026-02-17 10:40:10,688 runserver HTTP POST /api/workers/add-with-photo/ 400 [0.01, 127.0.0.1:59429]
+INFO 2026-02-17 10:40:33,595 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 10:40:33,597 runserver HTTP POST /api/workers/add-with-photo/ 201 [0.62, 127.0.0.1:59450]
+INFO 2026-02-17 10:40:49,273 runserver HTTP POST /api/detection/upload/ 200 [0.87, 127.0.0.1:59473]
+INFO 2026-02-17 10:41:14,936 runserver HTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:59498]
+INFO 2026-02-17 10:41:36,735 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:41:36,752 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:41:38,810 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:41:38,811 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:42:01,638 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:42:01,659 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:42:02,915 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:42:02,915 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:43:42,527 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:43:43,682 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:43:44,994 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:43:45,009 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:43:46,143 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:43:46,143 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:43:52,543 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:43:53,649 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:43:55,344 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:43:55,358 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:43:56,612 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:43:56,612 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:47:25,022 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:47:26,195 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:47:27,550 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:47:27,565 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:47:28,905 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:50:01,005 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:50:02,757 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:50:02,780 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:50:04,226 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:50:15,329 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 10:50:15,331 runserver HTTP POST /api/workers/add-with-photo/ 201 [0.59, 127.0.0.1:59988]
+INFO 2026-02-17 10:50:23,529 runserver HTTP POST /api/detection/upload/ 200 [0.85, 127.0.0.1:59994]
+INFO 2026-02-17 10:50:44,218 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:50:44,234 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:50:45,339 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:50:45,339 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:52:00,854 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:52:00,874 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:52:02,034 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:52:02,035 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:52:02,035 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:52:02,035 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:52:31,094 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/face_recognition.py changed, reloading.
+INFO 2026-02-17 10:52:32,263 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:52:33,521 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:52:33,535 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:52:34,648 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 10:52:34,648 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 10:52:53,269 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 10:52:54,889 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 10:52:54,914 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 10:52:56,272 face_recognition Base face recognition model loaded (celebrity-trained)
+INFO 2026-02-17 10:53:06,918 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 10:53:06,920 runserver HTTP POST /api/workers/add-with-photo/ 201 [0.62, 127.0.0.1:60136]
+INFO 2026-02-17 10:53:17,931 runserver HTTP POST /api/detection/upload/ 200 [0.81, 127.0.0.1:60144]
+INFO 2026-02-17 10:53:25,896 runserver HTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:60153]
+INFO 2026-02-17 10:53:34,955 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 10:53:34,956 runserver HTTP POST /api/workers/retrain-face-model/ 200 [0.01, 127.0.0.1:60166]
+INFO 2026-02-17 11:26:26,884 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/models.py changed, reloading.
+INFO 2026-02-17 11:26:28,308 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:26:29,841 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:26:29,862 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:26:31,099 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:26:31,099 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:26:36,489 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/models.py changed, reloading.
+INFO 2026-02-17 11:26:37,415 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:26:38,577 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:26:38,589 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:26:39,635 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:26:39,635 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:26:45,021 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/serializers.py changed, reloading.
+INFO 2026-02-17 11:26:45,786 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:26:46,859 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:26:46,870 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:26:47,926 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:26:47,927 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:26:56,438 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/serializers.py changed, reloading.
+INFO 2026-02-17 11:26:57,270 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:26:58,470 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:26:58,482 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:26:59,528 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:26:59,529 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:27:11,086 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/serializers.py changed, reloading.
+INFO 2026-02-17 11:27:11,952 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:27:13,093 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:27:13,104 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:27:14,152 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:27:14,152 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:27:23,716 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 11:27:24,499 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:27:25,627 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:27:25,638 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:27:26,651 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:27:26,652 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:27:32,055 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 11:27:32,871 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:27:33,871 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:27:33,883 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:27:34,778 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:27:34,779 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:27:47,418 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 11:27:48,357 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:27:49,608 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:27:49,624 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:27:50,673 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:27:50,673 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:27:57,099 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/urls.py changed, reloading.
+INFO 2026-02-17 11:27:57,925 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:27:59,152 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:27:59,167 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:28:00,274 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:28:00,274 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:28:04,622 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/urls.py changed, reloading.
+INFO 2026-02-17 11:28:05,416 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:28:06,672 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:28:06,692 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:28:07,733 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:28:07,734 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:29:00,568 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-17 11:29:01,954 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:29:03,384 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:29:03,398 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:29:04,467 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:29:04,467 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:29:19,146 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-17 11:29:20,049 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:29:21,338 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:29:21,354 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:29:22,450 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:29:22,450 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 11:29:25,768 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/routing.py changed, reloading.
+INFO 2026-02-17 11:29:26,574 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 11:29:27,782 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 11:29:27,794 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 11:29:28,857 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 11:29:28,857 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 12:16:51,034 runserver HTTP GET /api/detection/health/ 200 [0.06, 127.0.0.1:63977]
+INFO 2026-02-17 12:17:22,577 runserver HTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:64002]
+INFO 2026-02-17 12:17:23,516 runserver HTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:64002]
+INFO 2026-02-17 12:17:30,694 runserver HTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:64011]
+INFO 2026-02-17 12:17:31,189 runserver HTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:64011]
+INFO 2026-02-17 13:06:15,986 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/services/__init__.py changed, reloading.
+INFO 2026-02-17 13:06:17,673 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 13:06:19,229 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:06:19,249 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:06:20,481 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:06:20,481 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:06:29,962 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/consumers.py changed, reloading.
+INFO 2026-02-17 13:06:30,748 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 13:06:31,947 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:06:31,961 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:06:32,999 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:06:32,999 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:08:40,299 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:08:40,312 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:08:41,427 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:08:41,427 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:09:22,539 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:09:22,555 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:09:23,929 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:09:23,930 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:24:07,447 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:24:07,476 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:24:09,670 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:24:09,671 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:35:10,033 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 13:35:11,521 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 13:35:11,556 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 13:35:12,839 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 13:35:12,839 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 13:47:33,737 runserver [mHTTP POST /api/auth/login/ 200 [0.11, 127.0.0.1:52825][0m
+INFO 2026-02-17 13:47:36,002 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:52827][0m
+INFO 2026-02-17 13:47:42,883 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:52836][0m
+INFO 2026-02-17 13:47:43,707 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52836][0m
+INFO 2026-02-17 13:47:51,762 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52842][0m
+INFO 2026-02-17 13:47:57,848 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52847][0m
+INFO 2026-02-17 13:47:58,405 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52847][0m
+INFO 2026-02-17 13:47:58,905 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52847][0m
+INFO 2026-02-17 13:47:59,327 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52847][0m
+INFO 2026-02-17 13:50:27,564 runserver [mHTTP POST /api/auth/login/ 200 [0.08, 127.0.0.1:52975][0m
+INFO 2026-02-17 13:50:29,795 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52978][0m
+INFO 2026-02-17 13:50:34,429 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52986][0m
+INFO 2026-02-17 13:50:36,773 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52986][0m
+INFO 2026-02-17 13:51:45,495 runserver [mHTTP GET /api/detection/health/ 200 [0.02, 127.0.0.1:53034][0m
+INFO 2026-02-17 13:51:46,122 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53034][0m
+INFO 2026-02-17 14:37:38,065 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/serializers.py changed, reloading.
+INFO 2026-02-17 14:37:38,071 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/detection/serializers.py changed, reloading.
+INFO 2026-02-17 14:37:40,795 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 14:37:40,796 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 14:37:42,613 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 14:37:42,613 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 14:37:42,635 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 14:37:42,635 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 14:37:43,923 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 14:37:43,923 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 14:37:43,924 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 14:37:43,924 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 14:53:14,302 runserver [mHTTP POST /api/auth/login/ 200 [0.09, 127.0.0.1:59465][0m
+INFO 2026-02-17 14:53:19,412 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:59468][0m
+INFO 2026-02-17 14:53:23,466 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:59473][0m
+WARNING 2026-02-17 14:55:01,871 log Method Not Allowed: /api/detection/upload/
+WARNING 2026-02-17 14:55:01,874 runserver [31;1mHTTP GET /api/detection/upload/ 405 [0.05, 127.0.0.1:59558][0m
+WARNING 2026-02-17 14:55:02,575 log Method Not Allowed: /api/detection/upload/
+WARNING 2026-02-17 14:55:02,576 runserver [31;1mHTTP GET /api/detection/upload/ 405 [0.00, 127.0.0.1:59558][0m
+INFO 2026-02-17 14:58:59,650 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:59756][0m
+INFO 2026-02-17 14:59:00,311 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:59757][0m
+INFO 2026-02-17 14:59:03,113 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:59757][0m
+INFO 2026-02-17 14:59:04,795 runserver [mHTTP POST /api/detection/upload/ 200 [1.67, 127.0.0.1:59757][0m
+INFO 2026-02-17 17:04:05,531 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:64451][0m
+INFO 2026-02-17 17:04:12,387 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:64458][0m
+WARNING 2026-02-17 17:04:13,894 log Forbidden: /api/workers/stats/
+WARNING 2026-02-17 17:04:13,894 runserver [31;1mHTTP GET /api/workers/stats/ 403 [0.01, 127.0.0.1:64459][0m
+WARNING 2026-02-17 17:04:13,899 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 17:04:13,900 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:64460][0m
+WARNING 2026-02-17 17:04:25,071 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:04:25,071 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:64467][0m
+WARNING 2026-02-17 17:04:27,111 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:04:27,112 runserver [31;1mHTTP GET /api/workers/ 403 [0.01, 127.0.0.1:64470][0m
+WARNING 2026-02-17 17:04:27,625 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:04:27,626 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:64471][0m
+WARNING 2026-02-17 17:04:35,288 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:04:35,289 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:64479][0m
+WARNING 2026-02-17 17:04:35,804 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:04:35,804 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:64480][0m
+WARNING 2026-02-17 17:04:41,908 log Forbidden: /api/workers/stats/
+WARNING 2026-02-17 17:04:41,910 runserver [31;1mHTTP GET /api/workers/stats/ 403 [0.01, 127.0.0.1:64485][0m
+WARNING 2026-02-17 17:04:41,911 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 17:04:41,911 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:64486][0m
+INFO 2026-02-17 17:05:06,256 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:64504][0m
+WARNING 2026-02-17 17:05:39,296 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:05:39,298 runserver [31;1mHTTP POST /api/workers/ 403 [0.01, 127.0.0.1:64526][0m
+WARNING 2026-02-17 17:06:19,823 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:06:19,824 runserver [31;1mHTTP POST /api/workers/ 403 [0.01, 127.0.0.1:64556][0m
+WARNING 2026-02-17 17:06:31,046 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:06:31,046 runserver [31;1mHTTP POST /api/workers/ 403 [0.00, 127.0.0.1:64562][0m
+INFO 2026-02-17 17:17:31,046 runserver [mHTTP GET /api/detection/health/ 200 [0.04, 127.0.0.1:65131][0m
+INFO 2026-02-17 17:32:29,020 runserver [mHTTP POST /api/auth/login/ 200 [0.08, 127.0.0.1:49407][0m
+INFO 2026-02-17 17:32:54,489 face_recognition Loaded 1 worker mappings
+INFO 2026-02-17 17:32:54,498 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 17:32:54,499 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.16, 127.0.0.1:49431][0m
+WARNING 2026-02-17 17:32:54,507 log Forbidden: /api/auth/workers/create-account/
+WARNING 2026-02-17 17:32:54,508 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 403 [0.00, 127.0.0.1:49431][0m
+INFO 2026-02-17 17:43:27,460 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:49972][0m
+INFO 2026-02-17 17:44:18,733 runserver [mHTTP POST /api/auth/login/ 200 [0.10, 127.0.0.1:50027][0m
+INFO 2026-02-17 17:44:46,573 face_recognition Loaded 2 worker mappings
+INFO 2026-02-17 17:44:46,580 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 17:44:46,582 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.14, 127.0.0.1:50051][0m
+WARNING 2026-02-17 17:44:46,589 log Forbidden: /api/auth/workers/create-account/
+WARNING 2026-02-17 17:44:46,589 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 403 [0.00, 127.0.0.1:50051][0m
+INFO 2026-02-17 17:49:53,059 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:50395][0m
+INFO 2026-02-17 17:50:17,184 face_recognition Loaded 3 worker mappings
+INFO 2026-02-17 17:50:17,195 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 17:50:17,196 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.17, 127.0.0.1:50412][0m
+WARNING 2026-02-17 17:50:17,204 log Forbidden: /api/auth/workers/create-account/
+WARNING 2026-02-17 17:50:17,204 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 403 [0.00, 127.0.0.1:50412][0m
+INFO 2026-02-17 17:51:30,939 face_recognition Loaded 4 worker mappings
+INFO 2026-02-17 17:51:30,943 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 17:51:30,944 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.07, 127.0.0.1:50467][0m
+WARNING 2026-02-17 17:51:30,954 log Forbidden: /api/auth/workers/create-account/
+WARNING 2026-02-17 17:51:30,954 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 403 [0.00, 127.0.0.1:50467][0m
+WARNING 2026-02-17 17:51:47,942 log Bad Request: /api/auth/login/
+WARNING 2026-02-17 17:51:47,943 runserver [31;1mHTTP POST /api/auth/login/ 400 [0.07, 127.0.0.1:50483][0m
+INFO 2026-02-17 17:51:59,891 runserver [mHTTP POST /api/auth/login/ 200 [0.08, 127.0.0.1:50492][0m
+INFO 2026-02-17 17:52:04,362 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:50495][0m
+INFO 2026-02-17 17:52:07,029 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50498][0m
+INFO 2026-02-17 17:52:10,950 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50501][0m
+INFO 2026-02-17 17:52:11,225 runserver [mHTTP POST /api/detection/upload/ 200 [0.27, 127.0.0.1:50501][0m
+WARNING 2026-02-17 17:52:23,504 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:23,506 runserver [31;1mHTTP GET /api/workers/ 403 [0.01, 127.0.0.1:50511][0m
+WARNING 2026-02-17 17:52:24,692 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:24,692 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50512][0m
+WARNING 2026-02-17 17:52:39,865 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:39,866 runserver [31;1mHTTP GET /api/workers/ 403 [0.01, 127.0.0.1:50523][0m
+WARNING 2026-02-17 17:52:40,385 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:40,386 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50524][0m
+WARNING 2026-02-17 17:52:41,073 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:41,073 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50526][0m
+WARNING 2026-02-17 17:52:41,461 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:41,461 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50530][0m
+WARNING 2026-02-17 17:52:41,824 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:41,824 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50532][0m
+WARNING 2026-02-17 17:52:41,991 log Forbidden: /api/workers/
+WARNING 2026-02-17 17:52:41,991 runserver [31;1mHTTP GET /api/workers/ 403 [0.00, 127.0.0.1:50533][0m
+WARNING 2026-02-17 17:53:07,376 log Forbidden: /api/workers/stats/
+WARNING 2026-02-17 17:53:07,377 runserver [31;1mHTTP GET /api/workers/stats/ 403 [0.01, 127.0.0.1:50551][0m
+WARNING 2026-02-17 17:53:07,377 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 17:53:07,377 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:50552][0m
+INFO 2026-02-17 17:54:00,843 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/config/settings.py changed, reloading.
+INFO 2026-02-17 17:54:00,851 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/config/settings.py changed, reloading.
+INFO 2026-02-17 17:54:02,282 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:02,338 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:03,847 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:03,847 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:03,868 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:03,868 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:05,078 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:05,078 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:05,078 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:05,078 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:06,348 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/config/settings.py changed, reloading.
+INFO 2026-02-17 17:54:06,352 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/config/settings.py changed, reloading.
+INFO 2026-02-17 17:54:07,217 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:07,221 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:08,156 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:08,160 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:08,168 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:08,172 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:09,037 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:09,037 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:09,037 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:09,037 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:12,361 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 17:54:12,364 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 17:54:13,319 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:13,345 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:14,248 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:14,248 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:14,260 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:14,260 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:15,186 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:15,186 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:15,186 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:15,186 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:18,527 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 17:54:18,528 autoreload /Users/momen/StudioProjects/Grad Project/Backend_grad/authentication/views.py changed, reloading.
+INFO 2026-02-17 17:54:19,384 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:19,422 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:20,341 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:20,341 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:20,353 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:20,353 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:21,266 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:21,266 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:21,266 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:21,266 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:44,671 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:44,687 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:45,688 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:45,688 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:50,153 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:50,166 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:51,091 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:51,091 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:54:53,978 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:54:54,915 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:54:54,927 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:54:55,841 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:54:55,841 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:55:11,486 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:50666][0m
+INFO 2026-02-17 17:55:12,301 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50669][0m
+INFO 2026-02-17 17:55:35,281 face_recognition Loaded 5 worker mappings
+INFO 2026-02-17 17:55:35,286 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 17:55:35,287 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.61, 127.0.0.1:50689][0m
+WARNING 2026-02-17 17:55:35,298 log Unauthorized: /api/auth/workers/create-account/
+WARNING 2026-02-17 17:55:35,298 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 401 [0.00, 127.0.0.1:50689][0m
+WARNING 2026-02-17 17:56:05,591 log Unauthorized: /api/workers/
+WARNING 2026-02-17 17:56:05,591 runserver [31;1mHTTP GET /api/workers/ 401 [0.01, 127.0.0.1:50711][0m
+WARNING 2026-02-17 17:56:06,490 log Unauthorized: /api/workers/
+WARNING 2026-02-17 17:56:06,491 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:50714][0m
+WARNING 2026-02-17 17:56:07,975 log Unauthorized: /api/workers/stats/
+WARNING 2026-02-17 17:56:07,978 runserver [31;1mHTTP GET /api/workers/stats/ 401 [0.01, 127.0.0.1:50715][0m
+WARNING 2026-02-17 17:56:07,983 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 17:56:07,983 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:50716][0m
+INFO 2026-02-17 17:56:27,602 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:56:27,617 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:56:28,645 face_recognition Loaded 6 worker mappings
+INFO 2026-02-17 17:56:28,645 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:59:31,865 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 17:59:33,125 ppe_model Loading PPE detection model from: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 17:59:33,140 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 17:59:34,170 face_recognition Loaded 6 worker mappings
+INFO 2026-02-17 17:59:34,170 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 17:59:51,291 runserver [mHTTP POST /api/auth/login/ 200 [0.07, 127.0.0.1:50870][0m
+INFO 2026-02-17 18:00:19,426 face_recognition Loaded 6 worker mappings
+INFO 2026-02-17 18:00:19,430 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 18:00:19,431 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.63, 127.0.0.1:50894][0m
+WARNING 2026-02-17 18:00:19,445 log Unauthorized: /api/auth/workers/create-account/
+WARNING 2026-02-17 18:00:19,445 runserver [31;1mHTTP POST /api/auth/workers/create-account/ 401 [0.00, 127.0.0.1:50894][0m
+INFO 2026-02-17 18:00:32,574 face_recognition Loaded 7 worker mappings
+INFO 2026-02-17 18:00:32,581 face_recognition Model saved to /Users/momen/StudioProjects/Grad Project/Backend_grad/models/face_recognition_workers.joblib
+INFO 2026-02-17 18:00:32,582 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.17, 127.0.0.1:50905][0m
+WARNING 2026-02-17 18:00:34,867 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:00:34,867 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:50906][0m
+INFO 2026-02-17 18:00:40,282 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50911][0m
+INFO 2026-02-17 18:00:43,238 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50911][0m
+INFO 2026-02-17 18:00:43,930 runserver [mHTTP POST /api/detection/upload/ 200 [0.68, 127.0.0.1:50911][0m
+INFO 2026-02-17 18:00:48,506 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50919][0m
+INFO 2026-02-17 18:00:51,467 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:50919][0m
+INFO 2026-02-17 18:00:51,542 runserver [mHTTP POST /api/detection/upload/ 200 [0.07, 127.0.0.1:50919][0m
+WARNING 2026-02-17 18:01:20,019 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:01:20,025 runserver [31;1mHTTP GET /api/workers/ 401 [0.03, 127.0.0.1:50942][0m
+WARNING 2026-02-17 18:01:22,125 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:01:22,126 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:50948][0m
+WARNING 2026-02-17 18:01:22,558 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:01:22,558 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:50949][0m
+WARNING 2026-02-17 18:02:13,294 log Unauthorized: /api/workers/stats/
+WARNING 2026-02-17 18:02:13,295 runserver [31;1mHTTP GET /api/workers/stats/ 401 [0.03, 127.0.0.1:50987][0m
+WARNING 2026-02-17 18:02:13,301 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 18:02:13,301 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.02, 127.0.0.1:50988][0m
+WARNING 2026-02-17 18:02:17,165 log Unauthorized: /api/workers/stats/
+WARNING 2026-02-17 18:02:17,166 runserver [31;1mHTTP GET /api/workers/stats/ 401 [0.01, 127.0.0.1:50991][0m
+WARNING 2026-02-17 18:02:17,166 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 18:02:17,167 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:50992][0m
+WARNING 2026-02-17 18:03:28,636 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:03:28,639 runserver [31;1mHTTP GET /api/workers/ 401 [0.01, 127.0.0.1:51061][0m
+INFO 2026-02-17 18:03:40,462 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51068][0m
+INFO 2026-02-17 18:04:14,735 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51117][0m
+INFO 2026-02-17 18:04:19,918 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51121][0m
+INFO 2026-02-17 18:04:35,944 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51130][0m
+INFO 2026-02-17 18:04:36,178 runserver [mHTTP POST /api/detection/upload/ 200 [0.22, 127.0.0.1:51130][0m
+INFO 2026-02-17 18:04:39,997 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51134][0m
+INFO 2026-02-17 18:09:15,793 runserver [mHTTP GET /api/detection/health/ 200 [0.02, 127.0.0.1:51389][0m
+INFO 2026-02-17 18:09:20,641 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51404][0m
+INFO 2026-02-17 18:09:20,955 runserver [mHTTP POST /api/detection/upload/ 200 [0.28, 127.0.0.1:51404][0m
+INFO 2026-02-17 18:09:35,148 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:51414][0m
+WARNING 2026-02-17 18:09:42,420 log Unauthorized: /api/workers/stats/
+WARNING 2026-02-17 18:09:42,421 runserver [31;1mHTTP GET /api/workers/stats/ 401 [0.01, 127.0.0.1:51417][0m
+WARNING 2026-02-17 18:09:42,422 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 18:09:42,422 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:51418][0m
+WARNING 2026-02-17 18:09:48,785 log Unauthorized: /api/workers/stats/
+WARNING 2026-02-17 18:09:48,787 runserver [31;1mHTTP GET /api/workers/stats/ 401 [0.01, 127.0.0.1:51425][0m
+WARNING 2026-02-17 18:09:48,788 log Not Found: /api/workers/violations-summary/
+WARNING 2026-02-17 18:09:48,789 runserver [33mHTTP GET /api/workers/violations-summary/ 404 [0.01, 127.0.0.1:51426][0m
+INFO 2026-02-17 18:09:56,647 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51431][0m
+WARNING 2026-02-17 18:10:01,576 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:01,576 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51434][0m
+WARNING 2026-02-17 18:10:02,564 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:02,564 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51437][0m
+WARNING 2026-02-17 18:10:02,977 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:02,978 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51438][0m
+WARNING 2026-02-17 18:10:03,264 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:03,264 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51439][0m
+WARNING 2026-02-17 18:10:03,414 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:03,415 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51440][0m
+WARNING 2026-02-17 18:10:03,561 log Unauthorized: /api/workers/
+WARNING 2026-02-17 18:10:03,562 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:51441][0m
+ERROR 2026-02-17 23:16:48,702 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+WARNING 2026-02-17 23:16:48,710 ppe_model Could not preload PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:16:49,569 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:16:49,569 face_recognition Worker face recognition model loaded
+ERROR 2026-02-17 23:16:57,387 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+WARNING 2026-02-17 23:16:57,387 ppe_model Could not preload PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:16:58,006 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:16:58,006 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 23:17:11,596 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-17 23:17:13,397 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+WARNING 2026-02-17 23:17:13,397 ppe_model Could not preload PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:17:14,021 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:17:14,021 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 23:17:46,038 autoreload /usr/lib/python3.12/locale.py changed, reloading.
+INFO 2026-02-17 23:17:47,286 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-17 23:17:49,143 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+WARNING 2026-02-17 23:17:49,144 ppe_model Could not preload PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:17:49,809 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:17:49,809 face_recognition Worker face recognition model loaded
+WARNING 2026-02-17 23:46:50,361 log Not Found: /api/pages/sections.php
+WARNING 2026-02-17 23:46:50,362 runserver [33mHTTP GET /api/pages/sections.php?page=contact 404 [0.03, 127.0.0.1:58376][0m
+WARNING 2026-02-17 23:46:50,545 log Not Found: /favicon.ico
+WARNING 2026-02-17 23:46:50,545 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:58376][0m
+INFO 2026-02-17 23:54:09,676 runserver [mHTTP POST /api/auth/login/ 200 [0.23, 127.0.0.1:40985][0m
+INFO 2026-02-17 23:54:15,940 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:49185][0m
+INFO 2026-02-17 23:54:32,744 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:56513][0m
+ERROR 2026-02-17 23:54:32,912 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+ERROR 2026-02-17 23:54:32,912 ppe_model Error processing image bytes: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:54:32,922 runserver [mHTTP POST /api/detection/upload/ 200 [0.07, 127.0.0.1:56513][0m
+INFO 2026-02-17 23:55:06,250 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:53723][0m
+ERROR 2026-02-17 23:55:06,289 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+ERROR 2026-02-17 23:55:06,290 ppe_model Error processing image bytes: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:55:06,307 runserver [mHTTP POST /api/detection/upload/ 200 [0.02, 127.0.0.1:53723][0m
+INFO 2026-02-17 23:55:41,665 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:57103][0m
+ERROR 2026-02-17 23:55:41,694 ppe_model Failed to load PPE model: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+ERROR 2026-02-17 23:55:41,695 ppe_model Error processing image bytes: Model file not found at: /Users/momen/StudioProjects/Grad Project/graduation_project 2/best (4).pt
+INFO 2026-02-17 23:55:41,703 runserver [mHTTP POST /api/detection/upload/ 200 [0.01, 127.0.0.1:57103][0m
+INFO 2026-02-17 23:56:34,872 autoreload /home/believer/backendgrad/config/settings.py changed, reloading.
+INFO 2026-02-17 23:56:36,574 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 23:56:41,063 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-17 23:56:41,103 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 23:56:42,036 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:56:42,036 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 23:56:46,552 autoreload /home/believer/backendgrad/detection/services/ppe_model.py changed, reloading.
+INFO 2026-02-17 23:56:47,871 autoreload Watching for file changes with StatReloader
+INFO 2026-02-17 23:56:49,938 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-17 23:56:49,973 ppe_model PPE detection model loaded successfully
+INFO 2026-02-17 23:56:50,691 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:56:50,691 face_recognition Worker face recognition model loaded
+INFO 2026-02-17 23:57:34,125 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:37919][0m
+INFO 2026-02-17 23:57:37,145 runserver [mHTTP POST /api/detection/upload/ 200 [3.00, 127.0.0.1:37919][0m
+INFO 2026-02-17 23:57:41,738 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:46875][0m
+INFO 2026-02-17 23:57:44,779 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:56719][0m
+INFO 2026-02-17 23:57:44,991 runserver [mHTTP POST /api/detection/upload/ 200 [0.19, 127.0.0.1:56719][0m
+INFO 2026-02-17 23:58:06,214 face_recognition Loaded 8 worker mappings
+INFO 2026-02-17 23:58:06,220 face_recognition Model saved to /home/believer/backendgrad/models/face_recognition_workers.joblib
+INFO 2026-02-17 23:58:06,222 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.17, 127.0.0.1:38217][0m
+INFO 2026-02-17 23:58:13,278 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52315][0m
+INFO 2026-02-17 23:58:16,358 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:55399][0m
+INFO 2026-02-17 23:58:16,590 runserver [mHTTP POST /api/detection/upload/ 200 [0.20, 127.0.0.1:55399][0m
+WARNING 2026-02-17 23:58:20,040 log Unauthorized: /api/workers/
+WARNING 2026-02-17 23:58:20,040 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:39885][0m
+WARNING 2026-02-18 00:06:49,180 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:49,180 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:50,078 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:50,078 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:50,579 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:50,579 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:50,741 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:50,741 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:50,936 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:50,936 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:51,074 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:51,075 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+WARNING 2026-02-18 00:06:51,220 log Unauthorized: /api/workers/
+WARNING 2026-02-18 00:06:51,221 runserver [31;1mHTTP GET /api/workers/ 401 [0.00, 127.0.0.1:42855][0m
+INFO 2026-02-18 00:10:56,207 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:41835][0m
+INFO 2026-02-18 00:10:58,765 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:49271][0m
+INFO 2026-02-18 00:12:55,329 autoreload /home/believer/backendgrad/workers/models.py changed, reloading.
+INFO 2026-02-18 00:12:57,472 autoreload Watching for file changes with StatReloader
+INFO 2026-02-18 00:13:01,450 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-18 00:13:01,484 ppe_model PPE detection model loaded successfully
+INFO 2026-02-18 00:13:02,092 face_recognition Loaded 9 worker mappings
+INFO 2026-02-18 00:13:02,092 face_recognition Worker face recognition model loaded
+INFO 2026-02-18 00:13:25,571 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:45707][0m
+INFO 2026-02-18 00:13:40,379 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:50845][0m
+INFO 2026-02-18 00:14:27,167 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:34035][0m
+INFO 2026-02-18 00:15:33,242 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:43677][0m
+INFO 2026-02-18 00:15:39,753 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:42237][0m
+INFO 2026-02-18 00:15:46,968 runserver [mHTTP GET /api/workers/id/12121222/ 200 [0.01, 127.0.0.1:51049][0m
+WARNING 2026-02-18 00:15:47,019 log Not Found: /api/workers/violations/12121222/
+WARNING 2026-02-18 00:15:47,019 runserver [33mHTTP GET /api/workers/violations/12121222/ 404 [0.01, 127.0.0.1:51049][0m
+INFO 2026-02-18 00:16:56,731 runserver [mHTTP GET /api/workers/id/12121222/ 200 [0.01, 127.0.0.1:45029][0m
+WARNING 2026-02-18 00:16:56,754 log Not Found: /api/workers/violations/12121222/
+WARNING 2026-02-18 00:16:56,755 runserver [33mHTTP GET /api/workers/violations/12121222/ 404 [0.01, 127.0.0.1:45029][0m
+INFO 2026-02-18 00:16:57,363 runserver [mHTTP GET /api/workers/id/12121222/ 200 [0.01, 127.0.0.1:45029][0m
+WARNING 2026-02-18 00:16:57,388 log Not Found: /api/workers/violations/12121222/
+WARNING 2026-02-18 00:16:57,388 runserver [33mHTTP GET /api/workers/violations/12121222/ 404 [0.01, 127.0.0.1:45029][0m
+INFO 2026-02-18 00:17:05,063 runserver [mHTTP GET /api/workers/id/12121222/ 200 [0.01, 127.0.0.1:37631][0m
+INFO 2026-02-18 00:17:05,100 runserver [mHTTP GET /api/workers/12121222/violations/ 200 [0.01, 127.0.0.1:37631][0m
+INFO 2026-02-18 00:19:30,621 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:45751][0m
+INFO 2026-02-18 00:19:30,968 runserver [mHTTP GET /media/workers/photos/12342123.jpg 200 [0.01, 127.0.0.1:44373][0m
+INFO 2026-02-18 00:19:30,970 runserver [mHTTP GET /media/workers/photos/12415214.jpg 200 [0.02, 127.0.0.1:57139][0m
+INFO 2026-02-18 00:19:30,970 runserver [mHTTP GET /media/workers/photos/WORKER001_nF9qK1f.jpg 200 [0.02, 127.0.0.1:59803][0m
+INFO 2026-02-18 00:19:30,973 runserver [mHTTP GET /media/workers/photos/12121212.jpg 200 [0.01, 127.0.0.1:42565][0m
+INFO 2026-02-18 00:19:30,973 runserver [mHTTP GET /media/workers/photos/11121211.jpg 200 [0.01, 127.0.0.1:38473][0m
+INFO 2026-02-18 00:19:30,975 runserver [mHTTP GET /media/workers/photos/98898998.jpg 200 [0.01, 127.0.0.1:48485][0m
+INFO 2026-02-18 00:19:30,976 runserver [mHTTP GET /media/workers/photos/12313122.jpg 200 [0.01, 127.0.0.1:47479][0m
+INFO 2026-02-18 00:19:30,977 runserver [mHTTP GET /media/workers/photos/12312312.jpg 200 [0.01, 127.0.0.1:34395][0m
+INFO 2026-02-18 00:19:32,036 runserver [mHTTP GET /media/workers/photos/12121222.jpg 200 [0.00, 127.0.0.1:57139][0m
+INFO 2026-02-18 00:19:35,197 runserver [mHTTP GET /api/workers/id/12415214/ 200 [0.01, 127.0.0.1:42667][0m
+INFO 2026-02-18 00:19:35,230 runserver [mHTTP GET /api/workers/12415214/violations/ 200 [0.01, 127.0.0.1:42667][0m
+INFO 2026-02-18 00:19:40,531 runserver [mHTTP GET /api/workers/id/12415214/ 200 [0.01, 127.0.0.1:36625][0m
+INFO 2026-02-18 00:19:40,550 runserver [mHTTP GET /api/workers/12415214/violations/ 200 [0.01, 127.0.0.1:36625][0m
+INFO 2026-02-18 00:20:49,111 runserver [mHTTP GET /api/workers/id/WORKER001/ 200 [0.01, 127.0.0.1:55749][0m
+INFO 2026-02-18 00:20:49,131 runserver [mHTTP GET /api/workers/WORKER001/violations/ 200 [0.01, 127.0.0.1:55749][0m
+INFO 2026-02-18 00:21:48,745 runserver [mHTTP GET /api/workers/id/WORKER001/ 200 [0.01, 127.0.0.1:39445][0m
+INFO 2026-02-18 00:21:48,762 runserver [mHTTP GET /api/workers/WORKER001/violations/ 200 [0.01, 127.0.0.1:39445][0m
+INFO 2026-02-18 00:26:01,876 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:40625][0m
+INFO 2026-02-18 00:26:06,778 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:34583][0m
+DEBUG 2026-02-18 00:26:09,336 face_recognition Face encoding failed from bbox: Unsupported image type, must be 8bit gray or RGB image.
+INFO 2026-02-18 00:26:09,356 runserver [mHTTP POST /api/detection/upload/ 200 [2.29, 127.0.0.1:34583][0m
+INFO 2026-02-18 00:29:50,832 face_recognition Loaded 9 worker mappings
+INFO 2026-02-18 00:29:50,837 face_recognition Model saved to /home/believer/backendgrad/models/face_recognition_workers.joblib
+INFO 2026-02-18 00:29:50,838 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.15, 127.0.0.1:35509][0m
+INFO 2026-02-18 00:29:51,047 runserver [mHTTP POST /api/auth/workers/create-account/ 201 [0.18, 127.0.0.1:35509][0m
+INFO 2026-02-18 00:34:06,699 runserver [mHTTP POST /api/auth/login/ 200 [0.33, 127.0.0.1:53565][0m
+INFO 2026-02-18 00:34:07,044 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:41097]
+INFO 2026-02-18 00:34:07,053 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:41097]
+INFO 2026-02-18 00:34:07,053 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:34:07,071 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.02, 127.0.0.1:51697][0m
+INFO 2026-02-18 00:34:07,072 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:60985][0m
+INFO 2026-02-18 00:34:07,206 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:51697][0m
+INFO 2026-02-18 00:34:07,207 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:60985][0m
+INFO 2026-02-18 00:34:22,831 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:49093][0m
+WARNING 2026-02-18 00:34:37,105 log Unauthorized: /api/workers/12451254/violations/
+WARNING 2026-02-18 00:34:37,106 runserver [31;1mHTTP GET /api/workers/12451254/violations/ 401 [0.01, 127.0.0.1:56950][0m
+WARNING 2026-02-18 00:34:37,243 log Not Found: /favicon.ico
+WARNING 2026-02-18 00:34:37,244 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:56950][0m
+INFO 2026-02-18 00:34:50,440 runserver [mHTTP GET /media/workers/photos/12451254.jpg 200 [0.01, 127.0.0.1:56950][0m
+INFO 2026-02-18 00:34:56,915 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:41097]
+INFO 2026-02-18 00:34:56,916 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:35:01,976 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:50887]
+INFO 2026-02-18 00:35:01,976 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:50887]
+INFO 2026-02-18 00:35:01,977 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:35:02,162 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:55891]
+INFO 2026-02-18 00:35:02,163 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:55891]
+INFO 2026-02-18 00:35:02,163 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:35:02,243 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.02, 127.0.0.1:45951][0m
+INFO 2026-02-18 00:35:02,245 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.02, 127.0.0.1:45323][0m
+INFO 2026-02-18 00:35:02,255 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.02, 127.0.0.1:38101][0m
+INFO 2026-02-18 00:35:02,255 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.02, 127.0.0.1:45565][0m
+INFO 2026-02-18 00:35:02,311 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:55891]
+INFO 2026-02-18 00:35:02,311 consumers Notification client disconnected: None
+INFO 2026-02-18 00:35:02,478 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:45565][0m
+INFO 2026-02-18 00:35:02,481 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:38101][0m
+INFO 2026-02-18 00:35:02,483 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:45951][0m
+INFO 2026-02-18 00:35:02,484 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:45323][0m
+INFO 2026-02-18 00:35:05,401 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:48877]
+INFO 2026-02-18 00:35:05,402 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:48877]
+INFO 2026-02-18 00:35:05,402 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:35:08,321 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:48877]
+INFO 2026-02-18 00:35:08,321 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:50887]
+INFO 2026-02-18 00:35:08,321 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:35:08,321 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:36:31,321 runserver [mHTTP POST /api/auth/login/ 200 [0.60, 127.0.0.1:60319][0m
+INFO 2026-02-18 00:36:35,394 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:51535][0m
+INFO 2026-02-18 00:36:35,753 runserver [mHTTP GET /media/workers/photos/12451254.jpg 200 [0.00, 127.0.0.1:49957][0m
+INFO 2026-02-18 00:36:35,756 runserver [mHTTP GET /media/workers/photos/WORKER001_nF9qK1f.jpg 200 [0.00, 127.0.0.1:53297][0m
+INFO 2026-02-18 00:36:35,758 runserver [mHTTP GET /media/workers/photos/12415214.jpg 200 [0.00, 127.0.0.1:53191][0m
+INFO 2026-02-18 00:36:35,762 runserver [mHTTP GET /media/workers/photos/12342123.jpg 200 [0.01, 127.0.0.1:43565][0m
+INFO 2026-02-18 00:36:35,764 runserver [mHTTP GET /media/workers/photos/11121211.jpg 200 [0.01, 127.0.0.1:57889][0m
+INFO 2026-02-18 00:36:35,765 runserver [mHTTP GET /media/workers/photos/12121212.jpg 200 [0.01, 127.0.0.1:34759][0m
+INFO 2026-02-18 00:36:35,766 runserver [mHTTP GET /media/workers/photos/98898998.jpg 200 [0.01, 127.0.0.1:52311][0m
+INFO 2026-02-18 00:36:35,767 runserver [mHTTP GET /media/workers/photos/12313122.jpg 200 [0.00, 127.0.0.1:49257][0m
+INFO 2026-02-18 00:36:37,849 runserver [mHTTP GET /api/workers/id/12415214/ 200 [0.01, 127.0.0.1:51535][0m
+INFO 2026-02-18 00:36:37,882 runserver [mHTTP GET /api/workers/12415214/violations/ 200 [0.01, 127.0.0.1:51535][0m
+INFO 2026-02-18 00:36:41,203 runserver [mHTTP GET /media/workers/photos/12312312.jpg 200 [0.00, 127.0.0.1:49957][0m
+INFO 2026-02-18 00:36:41,385 runserver [mHTTP GET /media/workers/photos/12121222.jpg 200 [0.00, 127.0.0.1:49957][0m
+INFO 2026-02-18 00:38:54,457 face_recognition Loaded 10 worker mappings
+INFO 2026-02-18 00:38:54,464 face_recognition Model saved to /home/believer/backendgrad/models/face_recognition_workers.joblib
+INFO 2026-02-18 00:38:54,466 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.60, 127.0.0.1:33527][0m
+INFO 2026-02-18 00:38:54,696 runserver [mHTTP POST /api/auth/workers/create-account/ 201 [0.20, 127.0.0.1:33527][0m
+INFO 2026-02-18 00:38:57,526 runserver [mHTTP GET /api/detection/health/ 200 [0.01, 127.0.0.1:60385][0m
+INFO 2026-02-18 00:39:03,997 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:59397][0m
+DEBUG 2026-02-18 00:39:04,182 face_recognition Face encoding failed from bbox: Unsupported image type, must be 8bit gray or RGB image.
+INFO 2026-02-18 00:39:04,206 runserver [mHTTP POST /api/detection/upload/ 200 [0.13, 127.0.0.1:59397][0m
+INFO 2026-02-18 00:39:12,141 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:55315][0m
+INFO 2026-02-18 00:39:12,298 runserver [mHTTP POST /api/detection/upload/ 200 [0.09, 127.0.0.1:55315][0m
+INFO 2026-02-18 00:39:19,904 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:45781][0m
+DEBUG 2026-02-18 00:39:20,068 face_recognition Face encoding failed from bbox: Unsupported image type, must be 8bit gray or RGB image.
+INFO 2026-02-18 00:39:20,111 runserver [mHTTP POST /api/detection/upload/ 200 [0.14, 127.0.0.1:45781][0m
+INFO 2026-02-18 00:39:25,943 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:48119][0m
+INFO 2026-02-18 00:39:26,164 runserver [mHTTP POST /api/detection/upload/ 200 [0.20, 127.0.0.1:48119][0m
+INFO 2026-02-18 00:39:38,355 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:49259][0m
+INFO 2026-02-18 00:39:38,473 runserver [mHTTP GET /media/workers/photos/12451254.jpg 200 [0.00, 127.0.0.1:33887][0m
+INFO 2026-02-18 00:39:38,477 runserver [mHTTP GET /media/workers/photos/WORKER001_nF9qK1f.jpg 200 [0.00, 127.0.0.1:53375][0m
+INFO 2026-02-18 00:39:38,480 runserver [mHTTP GET /media/workers/photos/12415214.jpg 200 [0.01, 127.0.0.1:35713][0m
+INFO 2026-02-18 00:39:38,487 runserver [mHTTP GET /media/workers/photos/12342123.jpg 200 [0.01, 127.0.0.1:49261][0m
+INFO 2026-02-18 00:39:38,489 runserver [mHTTP GET /media/workers/photos/12412544.png 200 [0.01, 127.0.0.1:39753][0m
+INFO 2026-02-18 00:39:38,490 runserver [mHTTP GET /media/workers/photos/12121212.jpg 200 [0.01, 127.0.0.1:53455][0m
+INFO 2026-02-18 00:39:38,490 runserver [mHTTP GET /media/workers/photos/11121211.jpg 200 [0.01, 127.0.0.1:55279][0m
+INFO 2026-02-18 00:39:38,491 runserver [mHTTP GET /media/workers/photos/98898998.jpg 200 [0.01, 127.0.0.1:45457][0m
+INFO 2026-02-18 00:39:40,613 runserver [mHTTP GET /api/workers/id/12415214/ 200 [0.01, 127.0.0.1:49259][0m
+INFO 2026-02-18 00:39:40,637 runserver [mHTTP GET /api/workers/12415214/violations/ 200 [0.01, 127.0.0.1:49259][0m
+INFO 2026-02-18 00:39:50,208 runserver [mHTTP GET /api/workers/ 200 [0.01, 127.0.0.1:59733][0m
+INFO 2026-02-18 00:40:03,400 runserver [mHTTP POST /api/auth/login/ 200 [0.30, 127.0.0.1:50907][0m
+INFO 2026-02-18 00:40:03,557 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:38073]
+INFO 2026-02-18 00:40:03,557 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:38073]
+INFO 2026-02-18 00:40:03,557 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:40:03,704 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:43985][0m
+INFO 2026-02-18 00:40:03,704 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:41893][0m
+INFO 2026-02-18 00:40:03,758 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:41893][0m
+INFO 2026-02-18 00:40:03,759 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:43985][0m
+INFO 2026-02-18 00:40:06,243 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.00, 127.0.0.1:41893][0m
+INFO 2026-02-18 00:44:27,982 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:38073]
+INFO 2026-02-18 00:44:27,982 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:44:33,034 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:46127]
+INFO 2026-02-18 00:44:33,034 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:46127]
+INFO 2026-02-18 00:44:33,034 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:44:33,219 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:54309]
+INFO 2026-02-18 00:44:33,220 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:54309]
+INFO 2026-02-18 00:44:33,220 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:44:33,295 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:35497][0m
+INFO 2026-02-18 00:44:33,296 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:42521][0m
+INFO 2026-02-18 00:44:33,307 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:53549][0m
+INFO 2026-02-18 00:44:33,307 runserver [mHTTP GET /api/workers/id/12451254/ 200 [0.01, 127.0.0.1:59005][0m
+INFO 2026-02-18 00:44:33,434 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:54309]
+INFO 2026-02-18 00:44:33,434 consumers Notification client disconnected: None
+INFO 2026-02-18 00:44:33,553 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:59005][0m
+INFO 2026-02-18 00:44:33,555 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:42521][0m
+INFO 2026-02-18 00:44:33,559 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:35497][0m
+INFO 2026-02-18 00:44:33,560 runserver [mHTTP GET /api/workers/12451254/violations/ 200 [0.01, 127.0.0.1:53549][0m
+INFO 2026-02-18 00:44:33,922 runserver [mHTTP GET /media/workers/photos/12451254.jpg 200 [0.00, 127.0.0.1:60051][0m
+INFO 2026-02-18 00:44:36,458 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:35505]
+INFO 2026-02-18 00:44:36,458 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:35505]
+INFO 2026-02-18 00:44:36,459 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:44:39,149 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:35505]
+INFO 2026-02-18 00:44:39,149 consumers Notification client disconnected: None
+INFO 2026-02-18 00:44:42,170 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:47295]
+INFO 2026-02-18 00:44:42,171 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:47295]
+INFO 2026-02-18 00:44:42,171 consumers Worker 12451254 connected to notifications
+INFO 2026-02-18 00:44:48,191 runserver [mHTTP POST /api/auth/login/ 200 [0.19, 127.0.0.1:49717][0m
+INFO 2026-02-18 00:44:51,454 runserver [mHTTP GET /api/workers/ 200 [0.02, 127.0.0.1:37139][0m
+INFO 2026-02-18 00:44:51,632 runserver [mHTTP GET /media/workers/photos/WORKER001_nF9qK1f.jpg 200 [0.00, 127.0.0.1:48851][0m
+INFO 2026-02-18 00:44:51,636 runserver [mHTTP GET /media/workers/photos/12415214.jpg 200 [0.01, 127.0.0.1:47767][0m
+INFO 2026-02-18 00:44:51,640 runserver [mHTTP GET /media/workers/photos/12412544.png 200 [0.01, 127.0.0.1:51335][0m
+INFO 2026-02-18 00:44:51,641 runserver [mHTTP GET /media/workers/photos/12342123.jpg 200 [0.01, 127.0.0.1:43955][0m
+INFO 2026-02-18 00:44:51,642 runserver [mHTTP GET /media/workers/photos/12121212.jpg 200 [0.01, 127.0.0.1:47047][0m
+INFO 2026-02-18 00:44:51,643 runserver [mHTTP GET /media/workers/photos/11121211.jpg 200 [0.01, 127.0.0.1:58969][0m
+INFO 2026-02-18 00:44:51,644 runserver [mHTTP GET /media/workers/photos/98898998.jpg 200 [0.01, 127.0.0.1:53861][0m
+INFO 2026-02-18 00:44:57,635 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:52179][0m
+INFO 2026-02-18 00:45:01,065 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:56963][0m
+DEBUG 2026-02-18 00:45:01,266 face_recognition Face encoding failed from bbox: Unsupported image type, must be 8bit gray or RGB image.
+INFO 2026-02-18 00:45:01,293 runserver [mHTTP POST /api/detection/upload/ 200 [0.14, 127.0.0.1:56963][0m
+INFO 2026-02-18 00:45:06,180 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51413][0m
+INFO 2026-02-18 00:45:06,397 runserver [mHTTP POST /api/detection/upload/ 200 [0.19, 127.0.0.1:51413][0m
+INFO 2026-02-18 00:45:10,310 runserver [mHTTP GET /api/workers/ 200 [0.02, 127.0.0.1:47989][0m
+INFO 2026-02-18 00:45:12,980 runserver [mHTTP GET /api/workers/id/12415214/ 200 [0.01, 127.0.0.1:47989][0m
+INFO 2026-02-18 00:45:13,007 runserver [mHTTP GET /api/workers/12415214/violations/ 200 [0.01, 127.0.0.1:47989][0m
+WARNING 2026-02-18 00:45:31,681 log Bad Request: /api/auth/login/
+WARNING 2026-02-18 00:45:31,681 runserver [31;1mHTTP POST /api/auth/login/ 400 [0.16, 127.0.0.1:56139][0m
+WARNING 2026-02-18 00:45:37,459 log Bad Request: /api/auth/login/
+WARNING 2026-02-18 00:45:37,460 runserver [31;1mHTTP POST /api/auth/login/ 400 [0.17, 127.0.0.1:49457][0m
+INFO 2026-02-18 00:45:51,237 runserver [mHTTP POST /api/auth/login/ 200 [0.19, 127.0.0.1:35785][0m
+INFO 2026-02-18 00:45:53,743 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:38149][0m
+INFO 2026-02-18 00:45:59,521 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:51325][0m
+DEBUG 2026-02-18 00:45:59,788 face_recognition Face encoding failed from bbox: Unsupported image type, must be 8bit gray or RGB image.
+INFO 2026-02-18 00:45:59,813 runserver [mHTTP POST /api/detection/upload/ 200 [0.17, 127.0.0.1:51325][0m
+INFO 2026-02-18 00:47:03,456 face_recognition Loaded 11 worker mappings
+INFO 2026-02-18 00:47:03,461 face_recognition Model saved to /home/believer/backendgrad/models/face_recognition_workers.joblib
+INFO 2026-02-18 00:47:03,463 runserver [mHTTP POST /api/workers/add-with-photo/ 201 [0.39, 127.0.0.1:36669][0m
+INFO 2026-02-18 00:47:03,667 runserver [mHTTP POST /api/auth/workers/create-account/ 201 [0.19, 127.0.0.1:36669][0m
+INFO 2026-02-18 00:47:18,122 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:46127]
+INFO 2026-02-18 00:47:18,122 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:47295]
+INFO 2026-02-18 00:47:18,123 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:47:18,123 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:47:42,477 runserver [mHTTP POST /api/auth/login/ 200 [0.21, 127.0.0.1:54199][0m
+INFO 2026-02-18 00:47:42,771 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:49383]
+INFO 2026-02-18 00:47:42,772 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:49383]
+INFO 2026-02-18 00:47:42,772 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 00:47:42,912 runserver [mHTTP GET /api/workers/id/15412541/ 200 [0.01, 127.0.0.1:44141][0m
+INFO 2026-02-18 00:47:42,913 runserver [mHTTP GET /api/workers/id/15412541/ 200 [0.01, 127.0.0.1:36381][0m
+INFO 2026-02-18 00:47:43,017 runserver [mHTTP GET /api/workers/15412541/violations/ 200 [0.01, 127.0.0.1:36381][0m
+INFO 2026-02-18 00:47:43,020 runserver [mHTTP GET /api/workers/15412541/violations/ 200 [0.01, 127.0.0.1:44141][0m
+INFO 2026-02-18 00:47:43,229 runserver [mHTTP GET /media/workers/photos/15412541.jpg 200 [0.00, 127.0.0.1:57037][0m
+INFO 2026-02-18 00:47:46,881 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:49383]
+INFO 2026-02-18 00:47:46,881 consumers Notification client disconnected: None
+INFO 2026-02-18 00:47:49,957 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:35805]
+INFO 2026-02-18 00:47:49,958 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:35805]
+INFO 2026-02-18 00:47:49,958 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 00:47:57,686 runserver [mHTTP POST /api/auth/login/ 200 [0.19, 127.0.0.1:54075][0m
+INFO 2026-02-18 00:47:58,660 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:38041][0m
+INFO 2026-02-18 00:48:01,184 runserver [mHTTP GET /api/detection/health/ 200 [0.00, 127.0.0.1:38041][0m
+INFO 2026-02-18 00:48:01,520 runserver [mHTTP POST /api/detection/upload/ 200 [0.25, 127.0.0.1:38041][0m
+INFO 2026-02-18 00:48:28,694 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:35805]
+INFO 2026-02-18 00:48:28,694 consumers Notification client disconnected: 1006
+INFO 2026-02-18 00:48:45,473 runserver [mHTTP POST /api/auth/login/ 200 [0.22, 127.0.0.1:44869][0m
+INFO 2026-02-18 00:48:45,762 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:38377]
+INFO 2026-02-18 00:48:45,763 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:38377]
+INFO 2026-02-18 00:48:45,763 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 00:48:45,904 runserver [mHTTP GET /api/workers/id/15412541/ 200 [0.01, 127.0.0.1:55091][0m
+INFO 2026-02-18 00:48:45,905 runserver [mHTTP GET /api/workers/id/15412541/ 200 [0.01, 127.0.0.1:56771][0m
+INFO 2026-02-18 00:48:45,977 runserver [mHTTP GET /api/workers/15412541/violations/ 200 [0.01, 127.0.0.1:56771][0m
+INFO 2026-02-18 00:48:45,981 runserver [mHTTP GET /api/workers/15412541/violations/ 200 [0.01, 127.0.0.1:55091][0m
+INFO 2026-02-18 00:48:46,210 runserver [mHTTP GET /media/workers/photos/15412541.jpg 200 [0.00, 127.0.0.1:45389][0m
+INFO 2026-02-18 00:48:48,193 runserver [mHTTP GET /api/workers/15412541/violations/ 200 [0.01, 127.0.0.1:56771][0m
+INFO 2026-02-18 00:48:55,712 runserver WebSocket DISCONNECT /ws/notifications/ [127.0.0.1:38377]
+INFO 2026-02-18 00:48:55,713 consumers Notification client disconnected: None
+INFO 2026-02-18 00:48:58,744 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:45783]
+INFO 2026-02-18 00:48:58,744 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:45783]
+INFO 2026-02-18 00:48:58,745 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 01:15:51,818 autoreload /home/believer/backendgrad/detection/consumers.py changed, reloading.
+INFO 2026-02-18 01:15:54,714 autoreload Watching for file changes with StatReloader
+INFO 2026-02-18 01:15:57,752 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-18 01:15:57,809 ppe_model PPE detection model loaded successfully
+INFO 2026-02-18 01:15:58,758 face_recognition Loaded 12 worker mappings
+INFO 2026-02-18 01:15:58,758 face_recognition Worker face recognition model loaded
+INFO 2026-02-18 01:16:00,162 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:54213]
+INFO 2026-02-18 01:16:00,172 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:54213]
+INFO 2026-02-18 01:16:00,172 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 01:16:16,798 autoreload /home/believer/backendgrad/detection/consumers.py changed, reloading.
+INFO 2026-02-18 01:16:18,951 autoreload Watching for file changes with StatReloader
+INFO 2026-02-18 01:16:21,234 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-18 01:16:21,269 ppe_model PPE detection model loaded successfully
+INFO 2026-02-18 01:16:21,999 face_recognition Loaded 12 worker mappings
+INFO 2026-02-18 01:16:21,999 face_recognition Worker face recognition model loaded
+INFO 2026-02-18 01:16:24,396 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:38089]
+INFO 2026-02-18 01:16:24,397 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:38089]
+INFO 2026-02-18 01:16:24,398 consumers Worker 15412541 connected to notifications
+INFO 2026-02-18 01:24:02,831 autoreload /home/believer/backendgrad/config/settings.py changed, reloading.
+INFO 2026-02-18 01:24:05,659 autoreload Watching for file changes with StatReloader
+INFO 2026-02-18 01:24:07,829 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-18 01:24:07,864 ppe_model PPE detection model loaded successfully
+INFO 2026-02-18 01:24:08,599 face_recognition Loaded 12 worker mappings
+INFO 2026-02-18 01:24:08,600 face_recognition Worker face recognition model loaded
+INFO 2026-02-18 01:24:11,009 autoreload /home/believer/backendgrad/config/settings.py changed, reloading.
+INFO 2026-02-18 01:24:12,871 autoreload Watching for file changes with StatReloader
+INFO 2026-02-18 01:24:15,040 ppe_model Loading PPE detection model from: /home/believer/backendgrad/models/best (4).pt
+INFO 2026-02-18 01:24:15,072 ppe_model PPE detection model loaded successfully
+INFO 2026-02-18 01:24:15,852 face_recognition Loaded 12 worker mappings
+INFO 2026-02-18 01:24:15,852 face_recognition Worker face recognition model loaded
+INFO 2026-02-18 01:24:18,346 runserver WebSocket HANDSHAKING /ws/notifications/ [127.0.0.1:44289]
+INFO 2026-02-18 01:24:18,349 runserver WebSocket CONNECT /ws/notifications/ [127.0.0.1:44289]
+INFO 2026-02-18 01:24:18,349 consumers Worker 15412541 connected to notifications
