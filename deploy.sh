@@ -39,7 +39,7 @@ sed -i "s|change-this-to-a-long-random-string-in-production|$SECRET|" $APP_DIR/.
 # 6. Django setup
 echo "[6/8] Running Django setup..."
 cd $APP_DIR
-export $(cat .env.production | xargs)
+export $(grep -v '^#' .env.production | grep -v '^$' | xargs)
 $APP_DIR/venv/bin/python manage.py migrate --noinput
 $APP_DIR/venv/bin/python manage.py collectstatic --noinput
 
