@@ -5,7 +5,7 @@
 set -e
 
 APP_DIR="/opt/safesight"
-REPO_DIR="/home/believer/backendgrad"
+REPO_DIR="/home/momen/safesight-backend"
 
 echo "=== SafeSight Deployment ==="
 
